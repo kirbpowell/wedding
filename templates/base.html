@@ -2,17 +2,26 @@
 <html>
   <head>
     <title>{{ title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/lib/w3.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="ourStory">Our Story</a>
-      <a href="#weddingParty">Wedding Party</a>
-      <a href="#gifts">Gift Guidance</a>
-      <a href="dayOf">The Day Of</a>
+    <nav class="navbar navbar-custom">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="ourStory">Our Story</a></li>
+        <li><a href="weddingParty">Wedding Party</a></li>
+        <li><a href="gifts">Gift Guidance</a></li>
+        <li><a href="dayOf">The Day Of</a></li>
+      </ul>
     </nav>
     {% block content %}{% endblock %}
   </body>

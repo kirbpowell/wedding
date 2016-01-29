@@ -18,8 +18,27 @@ Travel and Reception updates!''',
 
 @app.route('/ourStory')
 def ourStory():
-    return render_template('content.html', some_content="Our story will go here!")
+    return render_template('content.html',
+                           some_content="Our story will go here.")
+
+
+@app.route('/weddingParty')
+def party():
+    return render_template('content.html',
+                           some_content="Info about the wedding party.")
+
+
+@app.route('/gifts')
+def gifts():
+    return render_template('content.html',
+                           some_content="Info about gift registries etc.")
+
+
+@app.route('/dayOf')
+def dayof():
+    return render_template('content.html',
+                           some_content="Details on the day of.")
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
