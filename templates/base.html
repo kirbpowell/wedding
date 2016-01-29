@@ -1,0 +1,19 @@
+
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/lib/w3.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="ourStory">Our Story</a>
+      <a href="#weddingParty">Wedding Party</a>
+      <a href="#gifts">Gift Guidance</a>
+      <a href="dayOf">The Day Of</a>
+    </nav>
+    {% block content %}{% endblock %}
+  </body>
+</html>
