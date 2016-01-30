@@ -8,12 +8,26 @@ img.main{
     width:50%;
 }
 
-.navy_background {
+.navy-background {
     background-color: #0C4063;
 }
 
-.center_text {
+.center-text {
     text-align: center;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+/* CUSTOM BOOTSTRAP STUFF */
+.table tr > td,
+.table thead {
+  color: #ffffff !important;
+}
+
+.table tr:hover {
+  background-color: #36637f !important;
 }
 
 .navbar-custom {

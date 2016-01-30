@@ -16,11 +16,11 @@
   <body>
     <nav class="navbar navbar-custom">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/">Home</a></li>
-        <li><a href="ourStory">Our Story</a></li>
-        <li><a href="weddingParty">Wedding Party</a></li>
-        <li><a href="gifts">Gift Guidance</a></li>
-        <li><a href="dayOf">The Day Of</a></li>
+        <li class="{{ active_state[0] }}"><a href="/">Home</a></li>
+        <li class="{{ active_state[1] }}"><a href="ourStory">Our Story</a></li>
+        <li class="{{ active_state[2] }}"><a href="weddingParty">Wedding Party</a></li>
+        <li class="{{ active_state[3] }}"><a href="gifts">Gift Guidance</a></li>
+        <li class="{{ active_state[4] }}"><a href="dayOf">The Day Of</a></li>
       </ul>
     </nav>
     {% block content %}{% endblock %}

@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
-    <div class="w3-container w3-padding-jumbo">
-        <div class="w3-card-16 navy_background">
-            <header class="w3-container w3-text-white center_text">
+    <div class="container">
+        <div class="col-sm-12 navy-background">
+            <header class="col-sm-12 white-text center-text">
                 <h1>{{welcome}}</h1>
             </header>
-            <img class="img-circle centered main" src="{{img}}" alt="{{alt}}">
-            <div class="w3-container w3-text-white">
-                <p class="center_text">{{info}}</p>
+            <img class="img-circle centered main" src="{{img}}" alt="{{alt}}"><br/>
+            <div class="col-sm-12 white-text">
+                <p class="center-text">{{info}}</p>
             </div>
         </div>
     </div>
