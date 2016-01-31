@@ -6,6 +6,7 @@ WEDDING_PARTY = [["Adam Powell", "Annie Dore"],
                  ["Kyle Gibbons", "Evva Frisby"],
                  ["Mark Baumann", "Meggan Wolanin"],
                  ["Wes Winn", "Victoria Peckham"]]
+# THE_INFO = ''''''
 
 
 @app.route('/')
@@ -14,9 +15,7 @@ def index():
     return render_template('index.html',
                            title='Patton and Kirby\'s Wedding Website!',
                            welcome='Welcome to our wedding website.',
-                           info='''The final version of our wedding website is
-still under construction, but feel free to check back often for Wedding,
-Travel and Reception updates!''',
+                           # info=THE_INFO,
                            img=url_for('static',
                                        filename="img/vienna.jpg"),
                            alt="Patton and Kirby together!",
@@ -27,31 +26,30 @@ Travel and Reception updates!''',
 def ourStory():
     ACTIVE_STATE = ['', 'active', '', '', '']
     return render_template('content.html',
-                           some_content="Our story will go here.",
-                           active_state=ACTIVE_STATE)
-
-
-@app.route('/weddingParty')
-def party():
-    ACTIVE_STATE = ['', '', 'active', '', '']
-    return render_template('wedding_party.html',
-                           the_party=WEDDING_PARTY,
-                           active_state=ACTIVE_STATE)
-
-
-@app.route('/gifts')
-def gifts():
-    ACTIVE_STATE = ['', '', '', 'active', '']
-    return render_template('content.html',
-                           some_content="Info about gift registries etc.",
                            active_state=ACTIVE_STATE)
 
 
 @app.route('/dayOf')
 def dayof():
+    ACTIVE_STATE = ['', '', 'active', '', '']
+    return render_template('content.html',
+                           active_state=ACTIVE_STATE)
+
+
+@app.route('/weddingParty')
+def party():
+    ACTIVE_STATE = ['', '', '', 'active', '']
+    # return render_template('wedding_party.html',
+    #                        the_party=WEDDING_PARTY,
+    #                        active_state=ACTIVE_STATE)
+    return render_template('content.html',
+                           active_state=ACTIVE_STATE)
+
+
+@app.route('/registries')
+def gifts():
     ACTIVE_STATE = ['', '', '', '', 'active']
     return render_template('content.html',
-                           some_content="Details on the day of.",
                            active_state=ACTIVE_STATE)
 
 

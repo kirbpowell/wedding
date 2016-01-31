@@ -1,7 +1,38 @@
+@font-face {
+  font-family: leagueGothic;
+  src: url('/static/fonts/LeagueGothic-Regular.otf');
+}
+
+@font-face {
+  font-family: stalemate;
+  src: url('/static/fonts/Stalemate-Regular.ttf');
+}
+
+.header-font {
+  font-family: stalemate;
+  font-size: 500%;
+}
+
+body {
+  background-image: url('/static/img/map-background.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+div {
+  font-family: leagueGothic;
+  opacity: 0.95;
+}
+
+.bigger-text {
+  font-size: 200%;
+}
+
 img.centered{
     display:block;
     margin-left: auto;
     margin-right: auto;
+    opacity: 1.0;
 }
 
 img.main{
@@ -12,6 +43,10 @@ img.main{
     background-color: #0C4063;
 }
 
+.light-navy-background {
+  background-color: #36627f;
+}
+
 .center-text {
     text-align: center;
 }
@@ -20,7 +55,39 @@ img.main{
   color: #ffffff;
 }
 
-/* CUSTOM BOOTSTRAP STUFF */
+/**************************/
+/* COUNTDOWN CLOCK STUFF  */
+/**************************/
+
+#countdown {
+  font-family: leagueGothic;
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+}
+
+#countdown > div {
+  padding: 10px;
+  border-radius: : 3px;
+  display: inline-block;
+}
+
+#countdown div > span {
+  padding: 15px;
+  border-radius: 3px;
+  background: #0C4063;
+  display: inline-block;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+/********************************/
+/* CUSTOM BOOTSTRAP TABLE STUFF */
+/********************************/
+
 .table tr > td,
 .table thead {
   color: #ffffff !important;
@@ -29,6 +96,10 @@ img.main{
 .table tr:hover {
   background-color: #36637f !important;
 }
+
+/*********************************/
+/* CUSTOM BOOTSTRAP NAVBAR STUFF */
+/*********************************/
 
 .navbar-custom {
   background-color: #0c4063;

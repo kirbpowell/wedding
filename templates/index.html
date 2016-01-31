@@ -1,14 +1,46 @@
 {% extends "base.html" %}
 {% block content %}
     <div class="container">
-        <div class="col-sm-12 navy-background">
+        <div class="col-sm-12 navy-background img-rounded">
             <header class="col-sm-12 white-text center-text">
-                <h1>{{welcome}}</h1>
+                <h1 class="header-font">{{welcome}}</h1>
             </header>
             <img class="img-circle centered main" src="{{img}}" alt="{{alt}}"><br/>
-            <div class="col-sm-12 white-text">
-                <p class="center-text">{{info}}</p>
+            <div class="col-sm-12 white-text center-text">
+                <p class="bigger-text">
+                    Please join us on June 18th, 2016 at the <a href='https://goo.gl/maps/4ekeXjc6q9A2'>Bond Chapel</a>, in Chicago Illinois as we celebrate our the beginning of our marriage.
+                </p>
             </div>
+        </div>
+    </div>
+
+    <br/>
+    <div class="light-navy-background img-rounded white-text center-text" style="display: table; margin: 0 auto; padding: 10px;">
+        <div class="header-font" style="margin-bottom: -35px">Our wedding is in exactly</div>
+        <div id="countdown">
+            <div>
+                <span class="days"></span><br/>
+                <div class="smalltext">Days</div>
+            </div>
+            <div>
+                <span class="hours"></span><br/>
+                <div class="smalltext">Hours</div>
+            </div>
+            <div>
+                <span class="minutes"></span><br/>
+                <div class="smalltext">Minutes</div>
+            </div>
+            <div>
+                <span class="seconds"></span><br/>
+                <div class="smalltext">Seconds</div>
+            </div>
+        </div>
+    </div>
+    <br/>
+
+    <div class="container">
+        <div class="col-sm-12 navy-background white-text center-text img-rounded">
+            <h2> Under Construction! </h2>
         </div>
     </div>
 {% endblock %}
