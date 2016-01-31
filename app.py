@@ -6,7 +6,17 @@ WEDDING_PARTY = [["Adam Powell", "Annie Dore"],
                  ["Kyle Gibbons", "Evva Frisby"],
                  ["Mark Baumann", "Meggan Wolanin"],
                  ["Wes Winn", "Victoria Peckham"]]
-# THE_INFO = ''''''
+RECEPTION_INFO = """The reception will follow the ceremony. We've got quite
+a bit planned, and we think it's going to be a great time. We're still
+hammering out the details though, so further information will be forthcoming
+ with your invitation."""
+BOND = """Located just off of the University of Chicago's main quad is
+the Joseph Bond Chapel, the beautiful and intimate Gothic Revival setting for
+our wedding. Built in 1926, the chapel features the stunning Reneker Organ,
+fantastic stained glass windows, as well as truly inspiring
+architecture and inscriptions. We think that it is going to be the perfect
+place to take our first steps into marriage together, and we hope you'll be
+able to join us."""
 
 
 @app.route('/')
@@ -32,8 +42,13 @@ def ourStory():
 @app.route('/dayOf')
 def dayof():
     ACTIVE_STATE = ['', '', 'active', '', '']
-    return render_template('content.html',
-                           active_state=ACTIVE_STATE)
+    return render_template('dayof.html',
+                           active_state=ACTIVE_STATE,
+                           img=url_for('static',
+                                       filename="img/bond.jpg"),
+                           alttext="Bond Chapel",
+                           bondBlurb=BOND,
+                           reception=RECEPTION_INFO)
 
 
 @app.route('/weddingParty')

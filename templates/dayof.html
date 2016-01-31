@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="hug-content light-navy-background white-text center-text img-rounded">
+    <h1 class="header-font">The Ceremony</h1>
+</div>
+<br/>
+<div class="container navy-background img-rounded">
+    <br/>
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="{{img}}" alt="{{alttext}}" class="img-rounded" style="max-width: 100%">
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="col-sm-4">
+            <iframe class="img-rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.8404158790127!2d-87.60260028456172!3d41.788652779229466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e293dbb824245%3A0x4ecf221e7c93121f!2sBond+Chapel%2C+Chicago%2C+IL+60637!5e0!3m2!1sen!2sus!4v1454222985154" style="max-width: 100%" allowfullscreen></iframe>
+        </div>
+        <div class="col-sm-8 white-text bigger-text">
+            {{bondBlurb}}
+        </div>
+    </div>
+    <br/>
+</div>
+
+<br/>
+
+<div class="hug-content light-navy-background white-text center-text img-rounded">
+    <h1 class="header-font">The Reception</h1>
+</div>
+
+<br/>
+
+<div class="container navy-background img-rounded">
+    <div class="col-sm-12 white-text center-text bigger-text">
+        {{reception}}
+    </div>
+</div>
+<br/>
+{% endblock %}

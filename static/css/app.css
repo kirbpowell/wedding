@@ -55,6 +55,12 @@ img.main{
   color: #ffffff;
 }
 
+.hug-content {
+  display: table; 
+  margin: 0 auto; 
+  padding: 10px;
+}
+
 /**************************/
 /* COUNTDOWN CLOCK STUFF  */
 /**************************/
