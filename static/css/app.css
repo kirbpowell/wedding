@@ -32,11 +32,10 @@ img.centered{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    opacity: 1.0;
-}
-
-img.main{
     width:50%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+/*    opacity: 1.0;*/
 }
 
 .navy-background {
@@ -59,6 +58,20 @@ img.main{
   display: table; 
   margin: 0 auto; 
   padding: 10px;
+}
+
+.groomsmen {
+  text-align: left;
+  background-color: #0C4063;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.bridesmaid {
+  text-align: right;
+  background-color: #D4AF37;
+  color: #ffffff;
+  padding: 20px;
 }
 
 /**************************/

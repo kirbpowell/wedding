@@ -1,0 +1,12 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<div class="container">
+    {% for member in wedding_party %}
+        <div class="{{ loop.cycle('groomsmen', 'bridesmaid') }} img-rounded">
+            <div class="header-font">{{ member[0] }}</div>
+            <div class="bigger-text">{{ member[1] }}</div>
+        </div>
+        <br/>
+    {% endfor %}
+</div>
+{% endblock %}
