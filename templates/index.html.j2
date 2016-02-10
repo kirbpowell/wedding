@@ -5,10 +5,14 @@
             <header class="col-sm-12 white-text center-text">
                 <h1 class="header-font">{{welcome}}</h1>
             </header>
+            <img src="{{ url_for('static', filename='img/flourish-top-right.png') }}" id="top-right">
+            {# <img src="{{ url_for('static', filename='img/flourish-top-left.png') }}" id="top-left"> #}
+            {# <img src="{{ url_for('static', filename='img/flourish-bottom-right.png') }}" id="bottom-right"> #}
+            <img src="{{ url_for('static', filename='img/flourish-bottom-left.png') }}" id="bottom-left">
             <img src="{{img}}" alt="{{alt}}" class="img-circle centered"><br/>
             <div class="col-sm-12 white-text center-text">
                 <p class="bigger-text">
-                    Please join us on June 18th, 2016 at the <a href='https://goo.gl/maps/4ekeXjc6q9A2'>Bond Chapel</a>, in Chicago Illinois as we celebrate our the beginning of our marriage.
+                    Please join us on June 18th, 2016 at the Bond Chapel, in Chicago, Illinois<br/> as we celebrate the beginning of our marriage.
                 </p>
             </div>
         </div>
