@@ -4,7 +4,7 @@
     {% for member in wedding_party %}
         <div class="{{ loop.cycle('groomsmen', 'bridesmaid') }} img-rounded">
             <div class="header-font">{{ member[0] }}</div>
-            <div class="bigger-text">{{ member[1] }}</div>
+            <div class="bigger-text" style="text-align: center; padding-left: 10%; padding-right: 10%">{{ member[1] }}</div>
         </div>
         <br/>
     {% endfor %}

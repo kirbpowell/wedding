@@ -36,7 +36,7 @@ def dayof():
 
 @app.route('/weddingParty')
 def party():
-    const.ACTIVE_STATE = ['', '', '', 'active', '']
+    const.ACTIVE_STATE = [u'', u'', u'', u'active', u'']
     return render_template('wedding_party.html.j2',
                            wedding_party=const.WEDDING_PARTY,
                            active_state=const.ACTIVE_STATE)

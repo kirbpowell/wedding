@@ -1,4 +1,6 @@
 # This file will contain all text content for the website.
+import groomsmen as g
+import bridesmaids as b
 
 #########################################
 #               GENERAL                 #
@@ -47,14 +49,15 @@ BOND_ALTTEXT = "Bond Chapel"
 #             WEDDING PARTY             #
 #########################################
 
-WEDDING_PARTY = [["Adam Powell", "About Adam"],
-                 ["Annie Dore", "About Annie"],
-                 ["Kyle Gibbons", "About KG"],
-                 ["Evva Frisby", "About Evva"],
-                 ["Mark Baumann", "About Mark"],
-                 ["Meggan Wolanin", "About Meggan"],
-                 ["Wes Winn", "About Wes"],
-                 ["Victoria Peckham", "About Victoria"]]
+WEDDING_PARTY = [["Adam", g.adam],
+                 ["Annie", b.annie],
+                 ["Kyle", g.kyle],
+                 ["Evva", b.evva],
+                 ["Mark", g.mark],
+                 ["Meggan", b.meggan],
+                 ["Wes", g.wes],
+                 ["Victoria", b.victoria],
+                 ["So, who's the Maid of Honor/Best Man?", g.explainer]]
 
 # PARTY_PICS = []
 
