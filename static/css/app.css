@@ -34,12 +34,16 @@ img.centered{
     margin-right: auto;
     width:50%;
     filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    /*-webkit-filter: grayscale(100%);*/
 /*    opacity: 1.0;*/
 }
 
 .navy-background {
     background-color: #0C4063;
+}
+
+.gold-background {
+  background-color: #D4AF37;
 }
 
 .light-navy-background {

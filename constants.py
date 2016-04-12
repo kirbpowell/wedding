@@ -1,6 +1,7 @@
 # This file will contain all text content for the website.
 import groomsmen as g
 import bridesmaids as b
+import story as s
 
 #########################################
 #               GENERAL                 #
@@ -23,6 +24,11 @@ HOME_ALTTEXT = "Patton and Kirby together!"
 #########################################
 #              OUR STORY                #
 #########################################
+
+our_story = [[s.paragraph_one, "Backstory"],
+             [s.paragraph_two, "Beginnings"],
+             [s.paragraph_three, "Engagement"],
+             [s.paragraph_four, "Union"]]
 
 #########################################
 #                DAY OF                 #

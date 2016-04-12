@@ -19,7 +19,8 @@ def index():
 @app.route('/ourStory')
 def ourStory():
     const.ACTIVE_STATE = ['', 'active', '', '', '']
-    return render_template('content.html.j2',
+    return render_template('our_story.html.j2',
+                           our_story=const.our_story,
                            active_state=const.ACTIVE_STATE)
 
 

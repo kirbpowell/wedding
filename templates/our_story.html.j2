@@ -1,0 +1,24 @@
+{% extends "base.html.j2" %}
+{% block content %}
+    <div class="container">
+        <div class="col-sm-12 gold-background white-text center-text img-rounded">
+            <h2> So how did these two meet anyway? </h2>
+        </div>
+    </div>
+    <br/>
+    <div class="container">
+        {% for paragraph in our_story %}
+            <div class="{{ loop.cycle('groomsmen', 'bridesmaid') }} img-rounded">
+                <div class="header-font">{{ paragraph[1] }}</div>
+                <div class="bigger-text" style="text-align: center; padding-left: 10%; padding-right: 10%">{{ paragraph[0] }}</div>
+            </div>
+            <br/>
+        {% endfor %}
+    </div>
+    <br/>
+    <div class="container">
+        <div class="col-sm-12 navy-background white-text center-text img-rounded">
+            <h2> They can't wait for all of you to join them. </h2>
+        </div>
+    </div>
+{% endblock %}
