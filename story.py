@@ -1,5 +1,5 @@
 paragraph_one = """
-Well, dear guests, it's actually a pretty funnny story. It's start all the way
+Well, dear guests, it's actually a pretty funnny story. It starts all the way
 back in 2011, when both Patton and Kirby were starting their first semesters
 at St. Edward's University. You might know it by looking at her, but back then
 Patton was a Computer Science major - just like Kirby. (Don't worry, that
@@ -30,16 +30,16 @@ things got international.
 
 paragraph_three = """
 Little did either of them know that over the next four years they would end up
-spending over a year away from eachother for one reason or another, from study
-abroad programs to federal research 'experiences' and even graduate school.
-They did however, find a wealth of amazing time together, including a magical
-five month stay in Prague where they were lucky enough to visit 14 different
-countries in europe (if you include the Vactican as a separate country.) By
-the end of their time together at St. Edward's, when Kirby graduated and moved
-up to Boston for his first year in grad school, he had realized that he
-couldn't imagine his life without Patton, and shortly after moving to
-Beatown he saved up and bought a ring. And even though the weather wasn't
-amazing, and the highest point in Austin could certainly have been more
+spending over a year away from each other for one reason or another, from
+study abroad programs to federal research 'experiences' and even graduate
+school. They did however, find a wealth of amazing time together, including a
+magical five month stay in Prague where they were lucky enough to visit 14
+different countries in Europe (if you include the Vactican as a separate
+country). By the end of their time together at St. Edward's, when Kirby
+graduated and moved up to Boston for his first year in grad school, he had
+realized that he couldn't imagine his life without Patton, and shortly after
+moving to Beantown he saved up and bought a ring. And even though the weather
+wasn't amazing, and the highest point in Austin could certainly have been more
 scenic than it was, Kirby got down on one knee on a December morning during
 his first break from grad school, and thanked God that Patton simply said
 "Yes".
@@ -47,15 +47,16 @@ his first break from grad school, and thanked God that Patton simply said
 
 paragraph_four = """
 A little less than eight months after that, when Patton and Kirby were
-spending the summer of 2015 together in Boston before Patton started her
-graduate studies, they decided that they'd really rather stop spending over
-a quarter of their time together thousands of miles apart, although they had
-gotten quite good at it by then. And so, Kirby engaged in negotiations with
-his job, and they packed up and moved here, to Chicago, together - finally
-starting a new chapeter of their lives together after nearly four years. And
-that, dear guests, is why they have invited all of you up to this Windy City
-this June. So that rather than dealing with yet another major life event from
-miles and miles away, they could bring all of you to them, in the first city
-that's ever truly been theirs, to celebrate the end of their separate travels
-and the beginning of a beautiful, astonishing, and incredibly strong marriage.
+spending the summer of 2015 in Boston before Patton started her graduate
+studies, they decided that they'd really rather stop spending over
+a quarter of their time as a couple thousands of miles apart, although they
+had gotten quite good at it by then. And so, Kirby engaged in negotiations
+with his job, and they packed up and moved here, to Chicago, together -
+finally starting a new chapeter of their lives together after nearly four
+years. And that, dear guests, is why they have invited all of you up to this
+Windy City this June. So that rather than dealing with yet another major life
+event from miles and miles away, they could bring all of you to them, in the
+first city that's ever truly been theirs, to celebrate the end of their
+separate travels and the beginning of a beautiful, astonishing, and
+incredibly strong marriage.
 """
