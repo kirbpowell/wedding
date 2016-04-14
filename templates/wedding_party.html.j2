@@ -3,10 +3,14 @@
 <div class="container">
     {% for member in wedding_party %}
         <div class="{{ loop.cycle('groomsmen', 'bridesmaid') }} img-rounded">
-            <div class="header-font">{{ member[0] }}</div>
-            <div class="bigger-text" style="text-align: center; padding-left: 10%; padding-right: 10%">{{ member[1] }}</div>
+            <div class="header-font wedding-party-spacing">{{ member[0] }}</div>
+            <div class="bigger-text wedding-party-text-spacing">{{ member[1] }}</div>
         </div>
         <br/>
     {% endfor %}
+    <div class="navy-background img-rounded white-text center-text">
+        <div class="header-font" style="padding-top: 2%">{{ explainer[0] }}</div>
+        <div class="bigger-text wedding-party-text-spacing"> {{ explainer[1] }} </div>
+    </div>
 </div>
 {% endblock %}

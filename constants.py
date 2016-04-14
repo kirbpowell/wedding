@@ -62,10 +62,21 @@ WEDDING_PARTY = [["Adam", g.adam],
                  ["Mark", g.mark],
                  ["Meggan", b.meggan],
                  ["Wes", g.wes],
-                 ["Victoria", b.victoria],
-                 ["So, who's the Maid of Honor/Best Man?", g.explainer]]
+                 ["Victoria", b.victoria]]
 
-# PARTY_PICS = []
+EXPLAINER = """
+There isn't going to be a Maid of Honor or a Best Man! We know that this
+might sound cliche, but everyone you've just read about holds a truly unique
+place in lives of both of us. We agonized for weeks over who we could honor
+with those titles, never settling on a definitive answer. Eventually, we
+realized that above all this day exists to celebrate our lives together with
+those closest to us and that we couldn't possibly choose to single out any of
+our friends over the others in good conscience. So, like a bunch of other
+facets of our wedding, this is just going to be another thing where we don't
+quite stick to tradition.
+"""
+
+EXPLAINER_OBJ = ["So, who's the Maid of Honor/Best Man?", EXPLAINER]
 
 #########################################
 #               REGISTRY                #

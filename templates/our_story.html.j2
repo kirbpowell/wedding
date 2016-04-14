@@ -9,8 +9,8 @@
     <div class="container">
         {% for paragraph in our_story %}
             <div class="{{ loop.cycle('groomsmen', 'bridesmaid') }} img-rounded">
-                <div class="header-font">{{ paragraph[1] }}</div>
-                <div class="bigger-text" style="text-align: center; padding-left: 10%; padding-right: 10%">{{ paragraph[0] }}</div>
+                <div class="header-font wedding-party-spacing">{{ paragraph[1] }}</div>
+                <div class="bigger-text wedding-party-text-spacing" style="text-align: center; padding-left: 10%; padding-right: 10%">{{ paragraph[0] }}</div>
             </div>
             <br/>
         {% endfor %}

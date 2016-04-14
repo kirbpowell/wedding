@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/index')
 def index():
-    const.ACTIVE_STATE = ['active', '', '', '', '']
+    const.ACTIVE_STATE = ['active', '', '', '', '', '']
     return render_template('index.html.j2',
                            title=const.TITLE,
                            welcome=const.WELCOME,
@@ -18,7 +18,7 @@ def index():
 
 @app.route('/ourStory')
 def ourStory():
-    const.ACTIVE_STATE = ['', 'active', '', '', '']
+    const.ACTIVE_STATE = ['', 'active', '', '', '', '']
     return render_template('our_story.html.j2',
                            our_story=const.our_story,
                            active_state=const.ACTIVE_STATE)
@@ -26,7 +26,7 @@ def ourStory():
 
 @app.route('/dayOf')
 def dayof():
-    const.ACTIVE_STATE = ['', '', 'active', '', '']
+    const.ACTIVE_STATE = ['', '', 'active', '', '', '']
     return render_template('dayof.html.j2',
                            active_state=const.ACTIVE_STATE,
                            img=url_for('static', filename=const.BOND_IMG),
@@ -37,9 +37,10 @@ def dayof():
 
 @app.route('/weddingParty')
 def party():
-    const.ACTIVE_STATE = [u'', u'', u'', u'active', u'']
+    const.ACTIVE_STATE = [u'', u'', u'', u'active', u'', '']
     return render_template('wedding_party.html.j2',
                            wedding_party=const.WEDDING_PARTY,
+                           explainer=const.EXPLAINER_OBJ,
                            active_state=const.ACTIVE_STATE)
     # return render_template('content.html.j2',
     #                        active_state=const.ACTIVE_STATE)
@@ -47,7 +48,14 @@ def party():
 
 @app.route('/registries')
 def gifts():
-    const.ACTIVE_STATE = ['', '', '', '', 'active']
+    const.ACTIVE_STATE = ['', '', '', '', 'active', '']
+    return render_template('content.html.j2',
+                           active_state=const.ACTIVE_STATE)
+
+
+@app.route('/rsvp')
+def rsvp():
+    const.ACTIVE_STATE = ['', '', '', '', '', 'active']
     return render_template('content.html.j2',
                            active_state=const.ACTIVE_STATE)
 

@@ -13,6 +13,18 @@
   font-size: 500%;
 }
 
+.wedding-party-spacing {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.wedding-party-text-spacing {
+  text-align: center; 
+  padding-left: 10%; 
+  padding-right: 10%; 
+  padding-bottom: 2%
+}
+
 body {
   background-image: url('/static/img/map-background.jpeg');
   background-repeat: no-repeat;
