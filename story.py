@@ -1,10 +1,10 @@
 paragraph_one = """
-Well, dear guests, it's actually a pretty funnny story. It starts all the way
+Well, dear guests, it's actually a pretty funny story. It starts all the way
 back in 2011, when both Patton and Kirby were starting their first semesters
-at St. Edward's University. You might know it by looking at her, but back then
-Patton was a Computer Science major - just like Kirby. (Don't worry, that
+at St. Edward's University. You might not know it by looking at her, but back
+then Patton was a Computer Science major - just like Kirby. (Don't worry, that
 phase doesn't last very long.) Kirby ended up asking Patton for some help in
-the class they shared together that first semseter, although to be honest
+the class they shared together that first semeseter, although to be honest
 things didn't really get off the ground until their second semester, that
 next spring. You see, right before Patton switched away from CS and into her
 eventual International Relations major, she and Kirby had a full three classes
@@ -34,7 +34,7 @@ spending over a year away from each other for one reason or another, from
 study abroad programs to federal research 'experiences' and even graduate
 school. They did however, find a wealth of amazing time together, including a
 magical five month stay in Prague where they were lucky enough to visit 14
-different countries in Europe (if you include the Vactican as a separate
+different countries in Europe (if you include the Vatican as a separate
 country). By the end of their time together at St. Edward's, when Kirby
 graduated and moved up to Boston for his first year in grad school, he had
 realized that he couldn't imagine his life without Patton, and shortly after
@@ -52,7 +52,7 @@ studies, they decided that they'd really rather stop spending over
 a quarter of their time as a couple thousands of miles apart, although they
 had gotten quite good at it by then. And so, Kirby engaged in negotiations
 with his job, and they packed up and moved here, to Chicago, together -
-finally starting a new chapeter of their lives together after nearly four
+finally starting a new chapter of their lives together after nearly four
 years. And that, dear guests, is why they have invited all of you up to this
 Windy City this June. So that rather than dealing with yet another major life
 event from miles and miles away, they could bring all of you to them, in the

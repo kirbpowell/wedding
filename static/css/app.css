@@ -25,6 +25,23 @@
   padding-bottom: 2%
 }
 
+a:link {
+  color: #D4AF37;
+}
+
+a:visited {
+   color: #93781f;
+}
+
+a:hover {
+   color: #D4AF37 !important;
+   text-decoration: none; 
+}
+
+.rsvp-button a:hover{
+  color:red !important;
+}
+
 body {
   background-image: url('/static/img/map-background.jpeg');
   background-repeat: no-repeat;

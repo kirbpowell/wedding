@@ -42,8 +42,6 @@ def party():
                            wedding_party=const.WEDDING_PARTY,
                            explainer=const.EXPLAINER_OBJ,
                            active_state=const.ACTIVE_STATE)
-    # return render_template('content.html.j2',
-    #                        active_state=const.ACTIVE_STATE)
 
 
 @app.route('/registries')
@@ -54,9 +52,10 @@ def gifts():
 
 
 @app.route('/rsvp')
+@app.route('/RSVP')
 def rsvp():
     const.ACTIVE_STATE = ['', '', '', '', '', 'active']
-    return render_template('content.html.j2',
+    return render_template('rsvp.html.j2',
                            active_state=const.ACTIVE_STATE)
 
 
